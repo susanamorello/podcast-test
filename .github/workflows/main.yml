@@ -2,7 +2,7 @@ name: Generat e Podcas Feeds
 on: [push]
 jobs:
   build:
-    run-on: ubuntu-lstest
+    runs-on: ubuntu-lstest
     steps:
     - name: Checkout Repo
       uses: actions/checkout@v3
